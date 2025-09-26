@@ -2,15 +2,15 @@
 #include <string>
 
 int main() {
-  // Flush after every std::cout / std:cerr
-  std::cout << std::unitbuf;
-  std::cerr << std::unitbuf;
-
-  
-   std::cout << "$ ";
-
-  std::string input;
-  std::getline(std::cin, input);
+    string name = "ALEXANDER";
+    cout<<"Name: "<<name;
+    cout<<endl;
+    string age = "18";
+    cout<<"Age: "<<age;
+    cout<<endl;
+    string city = "Krasnodar";
+    cout<<"City: "<<city;
+    cout<<endl;
 }
 
 
